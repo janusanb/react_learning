@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 60px;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+}
+
+.nav-items > li {
+    padding: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-header {
+    color: #00ccff;
+}
+
+.react-footer {
+    align-items: center;
+    margin-top: auto;
+}
