@@ -74,18 +74,19 @@ console.log(logo)
 
 // ReactDOM.render(<PageOne />, document.getElementById("root"))
 
-// function Page() {
-//   return (
-//     <>
-//       <Header />
-//       <MainContent />
-//       <App />
-//       <Footer />
-//     </>
+function Page() {
+  return (
+    <>
+      <Header />
+      <MainContent />
+      {/* <App /> */}
+      <Footer />
+    </>
     
-//   )
-// }
+  )
+}
 
 // ReactDOM.render(<Page />, document.getElementById("root"))
 
-ReactDOM.render(<App />, document.getElementById("root"))
+// ReactDOM.render(<App />, document.getElementById("root"))
+ReactDOM.createRoot(document.getElementById("root")).render(<Page />)
